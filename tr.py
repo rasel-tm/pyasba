@@ -9,7 +9,8 @@ APCConfigManager.set_apc_config_base({'num_epoch': 2})
 # config = APCConfigManager.get_apc_config_english() # APC task
 config = APCConfigManager.get_apc_config_base()
 # dataset = '101.restaurant'
-dataset = '101.my'
+# dataset = '101.my'
+dataset = '100.CustomDataset'
 Trainer(config=config,
         dataset=dataset,  # train set and test set will be automatically detected
         checkpoint_save_mode=1,
