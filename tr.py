@@ -6,8 +6,8 @@ from autocuda import auto_cuda
 # Set
 APCConfigManager.set_apc_config_base({'num_epoch': 2})
 
-# config = APCConfigManager.get_apc_config_english() # APC task
-config = APCConfigManager.get_apc_config_base()
+config = APCConfigManager.get_apc_config_english() # APC task
+# config = APCConfigManager.get_apc_config_base()
 # dataset = '101.restaurant'
 # dataset = '101.my'
 dataset = '100.CustomDataset'
